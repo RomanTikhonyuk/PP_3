@@ -2,6 +2,7 @@ package koschei;
 
 import koschei.models.Ocean1;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -16,5 +17,12 @@ public class KoscheiTheDeathless {
     @Autowired
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
+    }
+
+    @Override
+    public String toString() {
+        return "KoscheiTheDeathless{" +
+                "ocean=" + ocean +
+                '}';
     }
 }
