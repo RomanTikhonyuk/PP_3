@@ -18,11 +18,4 @@ public class KoscheiTheDeathless {
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
     }
-
-    @Override
-    public String toString() {
-        return "KoscheiTheDeathless{" +
-                "ocean=" + ocean +
-                '}';
-    }
 }
